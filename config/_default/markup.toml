@@ -50,6 +50,7 @@ noClasses = false
 noHl = false
 style = 'monokai'
 tabWidth = 4
+defaultCollapsed = false
 [tableOfContents]
 endLevel = 3
 ordered = false
