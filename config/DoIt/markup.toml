@@ -7,6 +7,7 @@
     guessSyntax = true
     lineNos = true
     lineNumbersInTable = true
+    defaultCollapsed = false
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     # false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
