@@ -8,3 +8,7 @@ inlineLeftDelimiter = "\\("
 inlineRightDelimiter = "\\)"
 copyTex = true
 mhchem = true
+
+[page.code]
+copy = true
+maxShownLines = 10
