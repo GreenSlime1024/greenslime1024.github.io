@@ -3,6 +3,18 @@ languageCode = "en-us"
 title = "greenslime1024's blog"
 theme = "DoIt"
 
+[params.home.profile]
+  enable = true
+  # Gravatar Email for preferred avatar in home page
+  gravatarEmail = "greenslime1024@gmail.com"
+  # URL of avatar shown in home page
+  avatarURL = "https://i.imgur.com/ZEXY4Nn.png"
+  # URL the avatar links to
+  avatarLinkURL = ""
+  social = true
+  subtitle = "Welcome to my big website !"
+  typeit = true
+
 [menu]
   [[menu.main]]
     identifier = "posts"
@@ -31,3 +43,69 @@ theme = "DoIt"
     url = "/categories/"
     title = ""
     weight = 3
+  
+  [params.search]
+    enable = true
+    # type of search engine ("algolia", "fuse")
+    type = "fuse"
+    # max index length of the chunked content
+    contentLength = 4000
+    # placeholder of the search bar
+    placeholder = ""
+    # DoIt NEW | 0.2.1 max number of results length
+    maxResultLength = 10
+    # DoIt NEW | 0.2.3 snippet length of the result
+    snippetLength = 30
+    # DoIt NEW | 0.2.1 HTML tag name of the highlight part in results
+    highlightTag = "em"
+    # DoIt NEW | 0.2.4 whether to use the absolute URL based on the baseURL in search index
+    absoluteURL = false
+    [params.search.algolia]
+      index = ""
+      appID = ""
+      searchKey = ""
+    [params.search.fuse]
+      # DoIt NEW | 0.2.12 https://fusejs.io/api/options.html
+      isCaseSensitive = false
+      minMatchCharLength = 2
+      findAllMatches = false
+      location = 0
+      threshold = 0.3
+      distance = 100
+      ignoreLocation = false
+      useExtendedSearch = false
+      ignoreFieldNorm = false
+
+  [params.header.title]
+    # URL of the LOGO
+    logo = "https://i.imgur.com/ZEXY4Nn.png"
+    # title name
+    name = "greenslime1024's blog"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    # DoIt NEW | 0.2.5 whether to use typeit animation for title name
+    typeit = false
+
+[params.social]
+   GitHub = "greenslime1024"
+   Email = "greenslime1024@gmail.com"
+
+[params.typeit]
+  # typing speed between each step (measured in milliseconds)
+  speed = 80
+  # blinking speed of the cursor (measured in milliseconds)
+  cursorSpeed = 1000
+  # character used for the cursor (HTML format is supported)
+  cursorChar = "|"
+  # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
+  duration = -1
+
+[params.page.toc]
+# whether to enable the table of the contents
+enable = true
+# DoIt NEW | 0.2.9 whether to keep the static table of the contents in front of the post
+keepStatic = true
+# whether to make the table of the contents in the sidebar automatically collapsed
+auto = true
