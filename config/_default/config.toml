@@ -109,3 +109,6 @@ theme = "DoIt"
   keepStatic = true
   # whether to make the table of the contents in the sidebar automatically collapsed
   auto = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
