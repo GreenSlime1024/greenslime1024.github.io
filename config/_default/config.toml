@@ -2,7 +2,7 @@ baseURL = "https://blog.greenslime1024.me/"
 languageCode = "en-us"
 title = "greenslime1024's blog"
 theme = "DoIt"
-images = ["/images/greenslime1024.jpg"]
+images = ["/greenslime1024.png"]
 
 [params.home.profile]
   enable = true
