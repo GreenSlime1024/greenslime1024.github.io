@@ -1,5 +1,5 @@
 version = "0.3.X"
-images = ["/greenslime1024.png"]
+images = ["/greenslime1024.jpg"]
 
 [page.math]
 enable = true
