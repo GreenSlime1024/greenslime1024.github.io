@@ -14,6 +14,26 @@ images = ["/greenslime1024.jpg"]
     copy = true
     maxShownLines = 10
 
+[page.toc]
+    # whether to enable the table of the contents
+    enable = true
+    # DoIt NEW | 0.2.9 whether to keep the static table of the contents in front of the post
+    keepStatic = false
+    # whether to make the table of the contents in the sidebar automatically collapsed
+    auto = true
+    position = "right"
+
+[page.comment]
+    enable = true
+
+    [page.comment.utterances]
+      enable = true
+      repo = "GreenSlime1024/blog"
+      issueTerm = "pathname"
+      label = ""
+      lightTheme = "github-light"
+      darkTheme = "github-dark"
+
 [home.profile]
     enable = true
     # Gravatar Email for preferred avatar in home page
@@ -80,12 +100,3 @@ images = ["/greenslime1024.jpg"]
     cursorChar = "|"
     # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
     duration = -1
-
-[page.toc]
-    # whether to enable the table of the contents
-    enable = true
-    # DoIt NEW | 0.2.9 whether to keep the static table of the contents in front of the post
-    keepStatic = false
-    # whether to make the table of the contents in the sidebar automatically collapsed
-    auto = true
-    position = "right"
