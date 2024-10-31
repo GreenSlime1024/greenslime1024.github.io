@@ -1,4 +1,4 @@
-version = "0.3.X"
+version = "0.4.X"
 images = ["/greenslime1024.jpg"]
 
 [page.math]
