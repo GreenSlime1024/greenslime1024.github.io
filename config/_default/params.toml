@@ -26,13 +26,21 @@ images = ["/greenslime1024.jpg"]
 [page.comment]
     enable = true
 
-    [page.comment.utterances]
-      enable = true
-      repo = "GreenSlime1024/blog"
-      issueTerm = "pathname"
-      label = ""
-      lightTheme = "github-light"
-      darkTheme = "github-dark"
+    [page.comment.giscus]
+        enable = true
+        dataRepo = "GreenSlime1024/blog"
+        dataRepoId = "R_kgDOM6TUXA"
+        dataCategory = "Announcements"
+        dataCategoryId = "DIC_kwDOM6TUXM4Cj2N_"
+        dataMapping = "pathname"
+        dataStrict = "0"
+        dataReactionsEnabled = "1"
+        dataEmitMetadata = "0"
+        dataInputPosition = "top"
+        lightTheme = "light"
+        darkTheme = "dark"
+        dataLang = "en"
+        dataLoading = "lazy"
 
 [home.profile]
     enable = true
